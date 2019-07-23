@@ -1,0 +1,1475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084242684E10E72FD60CC9674501A521 /* Pods-Essentialism-HabitReminderNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA76DCBB8B8450C6090DE26F6CA711E8 /* Pods-Essentialism-HabitReminderNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0868DAC45B9BE2214CB5F57D0CF631AC /* Pods-Essentialism-Essentialism-Stg-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 593242FC777699E4E253F04149A251E2 /* Pods-Essentialism-Essentialism-Stg-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B00B2131394E7D779E2C02D610CFED3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		0F08C0922AFF8660DDC6B33F5973AD53 /* JTAppleCalendarVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78EC70F960BBFE36F2D6931C499BF0B /* JTAppleCalendarVariables.swift */; };
+		12A2AD300F65E773885B5B69FB1D9AB8 /* JTAppleCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3494C5B8A1FB57A7F19EA42F7A4527 /* JTAppleCollectionReusableView.swift */; };
+		1D27793D021DEF5B1BAF2C35194E1753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		2D4C2CE404E6DD874335A24CCA6DEF0A /* UIColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B63A5A647C4FCA91D9CFCC43BD58 /* UIColorInputError.swift */; };
+		31A0A90FE6645E6548B15E771DFBFD50 /* JTAppleCalendarDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C809DB4D5347B4F43641C3D4E099D0 /* JTAppleCalendarDelegateProtocol.swift */; };
+		42023B129903ACB04DD76CE54BEDD02C /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3373100CE802AE74AEBE005C410EEB6 /* CalendarStructs.swift */; };
+		4270908E61FC8AE9F0AB7AE1354ADC3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		4611B82085E887F9215E0115AF30F99D /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F696894AFBBAF27F3A6B348353C93FB1 /* CalendarEnums.swift */; };
+		4A8C82118DF95DA82582ACCEA6EA3660 /* JTAppleCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE716A946B1594AE7B0E2D316AA797AB /* JTAppleCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		531EE7BBEBF8DBB9F5BF705B0B24EE32 /* Pods-Essentialism-Essentialism-Stg-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D69D88E3CC630FCCEE1F292D5934F957 /* Pods-Essentialism-Essentialism-Stg-dummy.m */; };
+		57F6AD0515EAB772855F66C97573898A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		5BF170918144167271555B263726F8C1 /* Pods-Essentialism-Essentialism-Dev-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 242149415A77FF9780E0D2D79D5E8A5C /* Pods-Essentialism-Essentialism-Dev-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F95E758840175C2194AF43CE326AD58 /* JTCalendarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7223C883D86933D3A473A2BF140F1D /* JTCalendarProtocols.swift */; };
+		6018A5DDB8E7AD3BC53D141F20E9344C /* Pods-Essentialism-HabitReminderNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3595B8C010024666DE9ECE16230ABD87 /* Pods-Essentialism-HabitReminderNotification-dummy.m */; };
+		60F02F4803D4BF7EC2A0A961761D338D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4FCA5EF021F2E251282467D597D95 /* StringExtension.swift */; };
+		650DCFAD052E63572E5D43F3CE4D15A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		712A447CB70F2D6C06C988828C34D751 /* Pods-Essentialism-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE15A1150495F8B2312FF081E42BFB /* Pods-Essentialism-dummy.m */; };
+		7C29B686ABDB3A3B4CF245AA915F827F /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED68773DF1991093A6A5F7E4350D185 /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2ED3490A814B76080B005DAA79DCB1 /* Pods-Essentialism-Essentialism-Dev-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A7ED9AD3483E5E188C91167B19FA69 /* Pods-Essentialism-Essentialism-Dev-dummy.m */; };
+		819873CF8DBFAD45590AAC8945DC1B5C /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01205BBDEA503F00270A85420C29FCAF /* GlobalFunctionsAndExtensions.swift */; };
+		8394230B7C1D50A0FA996E134955E23F /* JTAppleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD3535BB2E1FFE16B9B67726A1F0AD6 /* JTAppleCell.swift */; };
+		8E2AF2573C443F0DD5BB8111EC5B5375 /* InternalQueryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A4600F182A42C4FC43A2D17748F845 /* InternalQueryFunctions.swift */; };
+		8E5E3D6FCB6C2C52ED20EF236FC3155B /* UIScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320A6F7C635EB5C0FFC4CD717202DA41 /* UIScrollViewDelegates.swift */; };
+		969CE2BB2DD96803A14B093075375B2C /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = CE226C552BCB1A34008D7BDEC9DA5B3F /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A825C07868FC196698C2F6D2F2F61F86 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC61BF84705E843B6E533A4DFE1B6F0 /* UIColorExtension.swift */; };
+		ABD7DAE0F12B8C70A5248AD4B5B145A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		B4739E1452E5D10D47F64666AE6C5591 /* JTAppleCalendarLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938FEA7862D8EE2F7859193EA55673C /* JTAppleCalendarLayoutProtocol.swift */; };
+		BBB3AE605D296331132842711439176F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		C2DE02D3C4CC5353EB5A8401F05A5A8D /* JTAppleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B0016B3A9BAB26E3A227318153F3E /* JTAppleCalendarView.swift */; };
+		C3612A127636121CD966943B1A03937B /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F2A7962B1A23CAA84D65364CCA48E /* UIColor_Hex_Swift-dummy.m */; };
+		CE621D5AA4CCAB54B1D385BEBE9CCC2E /* Pods-Essentialism-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA1EDA39795750D7AA94F96B9ECCA12 /* Pods-Essentialism-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDE80C521CD8313AA440E0FC7B82FBB /* JTAppleCalendarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA913E0871A6F79F1E96BF0F434E3D /* JTAppleCalendarLayout.swift */; };
+		D1B55151AE05392B4A05522DED127897 /* UserInteractionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7DB96F57BD1DCB000E0896A9D5E50 /* UserInteractionFunctions.swift */; };
+		D42A00134A505A5ED05C10FC70F1926A /* UICollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF7CD0CC2871494142A9ED88092035 /* UICollectionViewDelegates.swift */; };
+		E7CC890914AE49452861315913ED237E /* InternalActionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCF4AA874094EE1E8DC1FF0602A2843 /* InternalActionFunctions.swift */; };
+		E7F6F68D34A04BC292597F6E4B55AB28 /* JTAppleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 255E48B6B3A215B960E7F53D20C95D2D /* JTAppleCalendar-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		072DC205625FD20FD26A7A3F277B0DE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9DA886A9B292405D1BB5AEFD038898;
+			remoteInfo = UIColor_Hex_Swift;
+		};
+		0AA5E6B7C3A091C3491B1BDDE0501E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9DA886A9B292405D1BB5AEFD038898;
+			remoteInfo = UIColor_Hex_Swift;
+		};
+		21E12FF4333EEB5C7C377ECA3F76F074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791E7B776DC18FAFD9755F8BBA33233B;
+			remoteInfo = JTAppleCalendar;
+		};
+		56249BE2F68F8352D54C31BFD3AA78A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9DA886A9B292405D1BB5AEFD038898;
+			remoteInfo = UIColor_Hex_Swift;
+		};
+		8F1BA09A592731F3EE74BB6F20613B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9DA886A9B292405D1BB5AEFD038898;
+			remoteInfo = UIColor_Hex_Swift;
+		};
+		AB78E19C800BFD519ED3861807F6A9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791E7B776DC18FAFD9755F8BBA33233B;
+			remoteInfo = JTAppleCalendar;
+		};
+		D2FB4046CA8D471952B42810F7719144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791E7B776DC18FAFD9755F8BBA33233B;
+			remoteInfo = JTAppleCalendar;
+		};
+		DEA6087336A7A954584DA6D388A42EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791E7B776DC18FAFD9755F8BBA33233B;
+			remoteInfo = JTAppleCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01205BBDEA503F00270A85420C29FCAF /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlobalFunctionsAndExtensions.swift; path = Sources/GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
+		019876BA09D177D736AFCDC61EBD4F91 /* JTAppleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTAppleCalendar.xcconfig; sourceTree = "<group>"; };
+		055AECB056B2391013D9B0E008F517AB /* Pods-Essentialism-HabitReminderNotification-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Essentialism-HabitReminderNotification-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FCF4AA874094EE1E8DC1FF0602A2843 /* InternalActionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalActionFunctions.swift; path = Sources/InternalActionFunctions.swift; sourceTree = "<group>"; };
+		19E88A10618F65634D0ED3B4E630C3A2 /* Pods-Essentialism-Essentialism-Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Essentialism-Essentialism-Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		242149415A77FF9780E0D2D79D5E8A5C /* Pods-Essentialism-Essentialism-Dev-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Essentialism-Essentialism-Dev-umbrella.h"; sourceTree = "<group>"; };
+		253F2A7962B1A23CAA84D65364CCA48E /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
+		255E48B6B3A215B960E7F53D20C95D2D /* JTAppleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTAppleCalendar-dummy.m"; sourceTree = "<group>"; };
+		27912ADE5B5030E43F4E9E80CDB8F0D4 /* Pods-Essentialism-Essentialism-Stg.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Essentialism-Essentialism-Stg.modulemap"; sourceTree = "<group>"; };
+		29E2B63A5A647C4FCA91D9CFCC43BD58 /* UIColorInputError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorInputError.swift; path = HEXColor/UIColorInputError.swift; sourceTree = "<group>"; };
+		2BC61BF84705E843B6E533A4DFE1B6F0 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
+		2DC76B619FCF95F1B75417DB7712D6E3 /* Pods_Essentialism_Essentialism_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Essentialism_Essentialism_Dev.framework; path = "Pods-Essentialism-Essentialism-Dev.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E664548FC3C07CCADD8B8A7778162CE /* Pods-Essentialism-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Essentialism-resources.sh"; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2FEA95B28970A1944254F7ECD5695704 /* Pods_Essentialism_HabitReminderNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Essentialism_HabitReminderNotification.framework; path = "Pods-Essentialism-HabitReminderNotification.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		320A6F7C635EB5C0FFC4CD717202DA41 /* UIScrollViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewDelegates.swift; path = Sources/UIScrollViewDelegates.swift; sourceTree = "<group>"; };
+		3391846592AA0A55DF705407507F8C96 /* Pods-Essentialism-HabitReminderNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Essentialism-HabitReminderNotification.release.xcconfig"; sourceTree = "<group>"; };
+		33C1786C3338D8F66CCF095773F7ADC6 /* Pods-Essentialism-Essentialism-Dev-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Essentialism-Essentialism-Dev-acknowledgements.markdown"; sourceTree = "<group>"; };
+		34B65D53F202C425D87482239ECB0F6E /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex_Swift.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3595B8C010024666DE9ECE16230ABD87 /* Pods-Essentialism-HabitReminderNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Essentialism-HabitReminderNotification-dummy.m"; sourceTree = "<group>"; };
+		35A4600F182A42C4FC43A2D17748F845 /* InternalQueryFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalQueryFunctions.swift; path = Sources/InternalQueryFunctions.swift; sourceTree = "<group>"; };
+		37CE3E42169DB0974D34AB266BD65A42 /* Pods-Essentialism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Essentialism.debug.xcconfig"; sourceTree = "<group>"; };
+		38F854A77D0906A999F7DEC8C87BCBF1 /* Pods-Essentialism-HabitReminderNotification-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Essentialism-HabitReminderNotification-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47BE15A1150495F8B2312FF081E42BFB /* Pods-Essentialism-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Essentialism-dummy.m"; sourceTree = "<group>"; };
+		4F3A66666F0DBED022D5104CB94AAEB9 /* Pods-Essentialism-Essentialism-Dev.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Essentialism-Essentialism-Dev.modulemap"; sourceTree = "<group>"; };
+		53D48D3BB7F8CEA7666D2BE6B2368B8F /* Pods-Essentialism-Essentialism-Dev-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Essentialism-Essentialism-Dev-frameworks.sh"; sourceTree = "<group>"; };
+		593242FC777699E4E253F04149A251E2 /* Pods-Essentialism-Essentialism-Stg-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Essentialism-Essentialism-Stg-umbrella.h"; sourceTree = "<group>"; };
+		6194116EFB2ABD552425E1DC4DAF9E6A /* Pods-Essentialism-HabitReminderNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Essentialism-HabitReminderNotification.modulemap"; sourceTree = "<group>"; };
+		6ED68773DF1991093A6A5F7E4350D185 /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
+		6F3494C5B8A1FB57A7F19EA42F7A4527 /* JTAppleCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCollectionReusableView.swift; path = Sources/JTAppleCollectionReusableView.swift; sourceTree = "<group>"; };
+		73C809DB4D5347B4F43641C3D4E099D0 /* JTAppleCalendarDelegateProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarDelegateProtocol.swift; path = Sources/JTAppleCalendarDelegateProtocol.swift; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		76845E63D7A4834C763C0F232C93EFE3 /* Pods-Essentialism-HabitReminderNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Essentialism-HabitReminderNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		77A1F4C27C1D507E0E167131CAA7937F /* UIColor_Hex_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.xcconfig; sourceTree = "<group>"; };
+		7B7223C883D86933D3A473A2BF140F1D /* JTCalendarProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTCalendarProtocols.swift; path = Sources/JTCalendarProtocols.swift; sourceTree = "<group>"; };
+		7D48CD64B083E6621481CAE657B5364C /* Pods-Essentialism-Essentialism-Stg-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Essentialism-Essentialism-Stg-frameworks.sh"; sourceTree = "<group>"; };
+		7DD6FEC4F4EE28FF3BCA77BD8749D24C /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JTAppleCalendar.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A7ED9AD3483E5E188C91167B19FA69 /* Pods-Essentialism-Essentialism-Dev-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Essentialism-Essentialism-Dev-dummy.m"; sourceTree = "<group>"; };
+		8AA1EDA39795750D7AA94F96B9ECCA12 /* Pods-Essentialism-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Essentialism-umbrella.h"; sourceTree = "<group>"; };
+		8C98DB2D0A40D4D07D7FE53E155E4B36 /* Pods-Essentialism-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Essentialism-frameworks.sh"; sourceTree = "<group>"; };
+		8ED4FCA5EF021F2E251282467D597D95 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = HEXColor/StringExtension.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B0468DB1C70C771A81716A9FECD1808 /* Pods-Essentialism-Essentialism-Stg-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Essentialism-Essentialism-Stg-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A35DB6FD520619EF99A4449EA579F354 /* Pods-Essentialism-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Essentialism-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4F30560434DEBD167ED76916596E332 /* Pods-Essentialism-Essentialism-Dev-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Essentialism-Essentialism-Dev-resources.sh"; sourceTree = "<group>"; };
+		AA6CA7423A58858C1E3BD1D857213333 /* Pods-Essentialism.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Essentialism.modulemap"; sourceTree = "<group>"; };
+		ACE8522B9ACD27581620A96C27AAA4EF /* Pods-Essentialism-HabitReminderNotification-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Essentialism-HabitReminderNotification-resources.sh"; sourceTree = "<group>"; };
+		B3373100CE802AE74AEBE005C410EEB6 /* CalendarStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarStructs.swift; path = Sources/CalendarStructs.swift; sourceTree = "<group>"; };
+		B4A2751AC35A7058D358A6AB9F368E2B /* Pods-Essentialism-Essentialism-Stg-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Essentialism-Essentialism-Stg-resources.sh"; sourceTree = "<group>"; };
+		B5FBA51617B238D0F56F679F1E9C6E4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6321B602D78D1B0A5316A4818AAFFBA /* Pods-Essentialism-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Essentialism-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7110BDCBF05EF2233CF080C42BC9789 /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
+		B78EC70F960BBFE36F2D6931C499BF0B /* JTAppleCalendarVariables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarVariables.swift; path = Sources/JTAppleCalendarVariables.swift; sourceTree = "<group>"; };
+		BA76DCBB8B8450C6090DE26F6CA711E8 /* Pods-Essentialism-HabitReminderNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Essentialism-HabitReminderNotification-umbrella.h"; sourceTree = "<group>"; };
+		BC1B2FB2A37B11F5777F47F3D6C7393B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB4EE82EDF76B0CBBE2843365DBBF4A /* Pods-Essentialism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Essentialism.release.xcconfig"; sourceTree = "<group>"; };
+		BDD3535BB2E1FFE16B9B67726A1F0AD6 /* JTAppleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCell.swift; path = Sources/JTAppleCell.swift; sourceTree = "<group>"; };
+		BDD67CDB8973FA6D7549BBBAF4A84DEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27E3AB23E97234FC4D36934EACEE5B3 /* JTAppleCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JTAppleCalendar.modulemap; sourceTree = "<group>"; };
+		C34B0016B3A9BAB26E3A227318153F3E /* JTAppleCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarView.swift; path = Sources/JTAppleCalendarView.swift; sourceTree = "<group>"; };
+		C35183283E3AFA43670087831E4BB8DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3CB1603232A9CADE85A8E3E7A5BA48E /* Pods_Essentialism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Essentialism.framework; path = "Pods-Essentialism.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AEF08ADEA475CF7217D0828EDC9865 /* Pods-Essentialism-Essentialism-Dev-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Essentialism-Essentialism-Dev-acknowledgements.plist"; sourceTree = "<group>"; };
+		CAE7DB96F57BD1DCB000E0896A9D5E50 /* UserInteractionFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInteractionFunctions.swift; path = Sources/UserInteractionFunctions.swift; sourceTree = "<group>"; };
+		CE226C552BCB1A34008D7BDEC9DA5B3F /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
+		D00AC62991E014C7258A4B0EBD0CA275 /* Pods_Essentialism_Essentialism_Stg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Essentialism_Essentialism_Stg.framework; path = "Pods-Essentialism-Essentialism-Stg.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43403F7357620A9E122D7E598BC2865 /* Pods-Essentialism-Essentialism-Stg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Essentialism-Essentialism-Stg.release.xcconfig"; sourceTree = "<group>"; };
+		D5D5BC68A41D197B4205FDEBF69FFF2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69D88E3CC630FCCEE1F292D5934F957 /* Pods-Essentialism-Essentialism-Stg-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Essentialism-Essentialism-Stg-dummy.m"; sourceTree = "<group>"; };
+		D938FEA7862D8EE2F7859193EA55673C /* JTAppleCalendarLayoutProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayoutProtocol.swift; path = Sources/JTAppleCalendarLayoutProtocol.swift; sourceTree = "<group>"; };
+		DAFF7CD0CC2871494142A9ED88092035 /* UICollectionViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewDelegates.swift; path = Sources/UICollectionViewDelegates.swift; sourceTree = "<group>"; };
+		DE716A946B1594AE7B0E2D316AA797AB /* JTAppleCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-umbrella.h"; sourceTree = "<group>"; };
+		DFB27CE462B5DE60EE9518D8661875DA /* Pods-Essentialism-Essentialism-Stg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Essentialism-Essentialism-Stg.debug.xcconfig"; sourceTree = "<group>"; };
+		E7166D40D27DE480C4E3A590ECE52D4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2624E88B839ACAFADEA904E2FE054E4 /* Pods-Essentialism-Essentialism-Stg-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Essentialism-Essentialism-Stg-acknowledgements.plist"; sourceTree = "<group>"; };
+		F696894AFBBAF27F3A6B348353C93FB1 /* CalendarEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarEnums.swift; path = Sources/CalendarEnums.swift; sourceTree = "<group>"; };
+		F6E3201EF94E0C46D9F62F32FA4EBACD /* JTAppleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTAppleCalendar-prefix.pch"; sourceTree = "<group>"; };
+		F7CA913E0871A6F79F1E96BF0F434E3D /* JTAppleCalendarLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayout.swift; path = Sources/JTAppleCalendarLayout.swift; sourceTree = "<group>"; };
+		F83D455F43B0D732942E1C5C6DB8123C /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
+		FA33CA44894C1A1CC2B5D4397A19736E /* Pods-Essentialism-Essentialism-Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Essentialism-Essentialism-Dev.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0280EF87B2907100280E7942FE43161A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D27793D021DEF5B1BAF2C35194E1753 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D61044912ED65BFC3E9D4347434DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650DCFAD052E63572E5D43F3CE4D15A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318D234CB022F18738CFD6798E657D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB3AE605D296331132842711439176F /* Foundation.framework in Frameworks */,
+				57F6AD0515EAB772855F66C97573898A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB3A86B2DC81B7BCB389B00818FB467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B00B2131394E7D779E2C02D610CFED3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADB7E565FF3F3EE4AF9FA009F488E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4270908E61FC8AE9F0AB7AE1354ADC3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35AE1416E561F740F480B8501E6B545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD7DAE0F12B8C70A5248AD4B5B145A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02190B75123113D6C35101D2D1C6E1FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E529A4F99CDFBE19CECBB0C32546EC1E /* JTAppleCalendar */,
+				CB63047F75885A703D39034AC81A84A9 /* SwiftLint */,
+				7D7E69AD0B1BCD736E2353A4E63073DE /* UIColor_Hex_Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0CC93366E0B793FE31BED9B8620F09A9 /* Pods-Essentialism-Essentialism-Stg */ = {
+			isa = PBXGroup;
+			children = (
+				C35183283E3AFA43670087831E4BB8DE /* Info.plist */,
+				27912ADE5B5030E43F4E9E80CDB8F0D4 /* Pods-Essentialism-Essentialism-Stg.modulemap */,
+				9B0468DB1C70C771A81716A9FECD1808 /* Pods-Essentialism-Essentialism-Stg-acknowledgements.markdown */,
+				F2624E88B839ACAFADEA904E2FE054E4 /* Pods-Essentialism-Essentialism-Stg-acknowledgements.plist */,
+				D69D88E3CC630FCCEE1F292D5934F957 /* Pods-Essentialism-Essentialism-Stg-dummy.m */,
+				7D48CD64B083E6621481CAE657B5364C /* Pods-Essentialism-Essentialism-Stg-frameworks.sh */,
+				B4A2751AC35A7058D358A6AB9F368E2B /* Pods-Essentialism-Essentialism-Stg-resources.sh */,
+				593242FC777699E4E253F04149A251E2 /* Pods-Essentialism-Essentialism-Stg-umbrella.h */,
+				DFB27CE462B5DE60EE9518D8661875DA /* Pods-Essentialism-Essentialism-Stg.debug.xcconfig */,
+				D43403F7357620A9E122D7E598BC2865 /* Pods-Essentialism-Essentialism-Stg.release.xcconfig */,
+			);
+			name = "Pods-Essentialism-Essentialism-Stg";
+			path = "Target Support Files/Pods-Essentialism-Essentialism-Stg";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62D38D86B1915C5D5AA10E4D104E0FC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7166D40D27DE480C4E3A590ECE52D4C /* Info.plist */,
+				C27E3AB23E97234FC4D36934EACEE5B3 /* JTAppleCalendar.modulemap */,
+				019876BA09D177D736AFCDC61EBD4F91 /* JTAppleCalendar.xcconfig */,
+				255E48B6B3A215B960E7F53D20C95D2D /* JTAppleCalendar-dummy.m */,
+				F6E3201EF94E0C46D9F62F32FA4EBACD /* JTAppleCalendar-prefix.pch */,
+				DE716A946B1594AE7B0E2D316AA797AB /* JTAppleCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JTAppleCalendar";
+			sourceTree = "<group>";
+		};
+		63AEF5496F49091828FC9ED146649706 /* Pods-Essentialism-Essentialism-Dev */ = {
+			isa = PBXGroup;
+			children = (
+				B5FBA51617B238D0F56F679F1E9C6E4B /* Info.plist */,
+				4F3A66666F0DBED022D5104CB94AAEB9 /* Pods-Essentialism-Essentialism-Dev.modulemap */,
+				33C1786C3338D8F66CCF095773F7ADC6 /* Pods-Essentialism-Essentialism-Dev-acknowledgements.markdown */,
+				C6AEF08ADEA475CF7217D0828EDC9865 /* Pods-Essentialism-Essentialism-Dev-acknowledgements.plist */,
+				81A7ED9AD3483E5E188C91167B19FA69 /* Pods-Essentialism-Essentialism-Dev-dummy.m */,
+				53D48D3BB7F8CEA7666D2BE6B2368B8F /* Pods-Essentialism-Essentialism-Dev-frameworks.sh */,
+				A4F30560434DEBD167ED76916596E332 /* Pods-Essentialism-Essentialism-Dev-resources.sh */,
+				242149415A77FF9780E0D2D79D5E8A5C /* Pods-Essentialism-Essentialism-Dev-umbrella.h */,
+				19E88A10618F65634D0ED3B4E630C3A2 /* Pods-Essentialism-Essentialism-Dev.debug.xcconfig */,
+				FA33CA44894C1A1CC2B5D4397A19736E /* Pods-Essentialism-Essentialism-Dev.release.xcconfig */,
+			);
+			name = "Pods-Essentialism-Essentialism-Dev";
+			path = "Target Support Files/Pods-Essentialism-Essentialism-Dev";
+			sourceTree = "<group>";
+		};
+		68BC0C2969AF8D5BEA49BCAE55DF320C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DD6FEC4F4EE28FF3BCA77BD8749D24C /* JTAppleCalendar.framework */,
+				C3CB1603232A9CADE85A8E3E7A5BA48E /* Pods_Essentialism.framework */,
+				2DC76B619FCF95F1B75417DB7712D6E3 /* Pods_Essentialism_Essentialism_Dev.framework */,
+				D00AC62991E014C7258A4B0EBD0CA275 /* Pods_Essentialism_Essentialism_Stg.framework */,
+				2FEA95B28970A1944254F7ECD5695704 /* Pods_Essentialism_HabitReminderNotification.framework */,
+				34B65D53F202C425D87482239ECB0F6E /* UIColor_Hex_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BAFEF24C19BC7B59CE15F235F883687 /* Pods-Essentialism */ = {
+			isa = PBXGroup;
+			children = (
+				D5D5BC68A41D197B4205FDEBF69FFF2C /* Info.plist */,
+				AA6CA7423A58858C1E3BD1D857213333 /* Pods-Essentialism.modulemap */,
+				A35DB6FD520619EF99A4449EA579F354 /* Pods-Essentialism-acknowledgements.markdown */,
+				B6321B602D78D1B0A5316A4818AAFFBA /* Pods-Essentialism-acknowledgements.plist */,
+				47BE15A1150495F8B2312FF081E42BFB /* Pods-Essentialism-dummy.m */,
+				8C98DB2D0A40D4D07D7FE53E155E4B36 /* Pods-Essentialism-frameworks.sh */,
+				2E664548FC3C07CCADD8B8A7778162CE /* Pods-Essentialism-resources.sh */,
+				8AA1EDA39795750D7AA94F96B9ECCA12 /* Pods-Essentialism-umbrella.h */,
+				37CE3E42169DB0974D34AB266BD65A42 /* Pods-Essentialism.debug.xcconfig */,
+				BCB4EE82EDF76B0CBBE2843365DBBF4A /* Pods-Essentialism.release.xcconfig */,
+			);
+			name = "Pods-Essentialism";
+			path = "Target Support Files/Pods-Essentialism";
+			sourceTree = "<group>";
+		};
+		7D7E69AD0B1BCD736E2353A4E63073DE /* UIColor_Hex_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CE226C552BCB1A34008D7BDEC9DA5B3F /* HEXColor.h */,
+				8ED4FCA5EF021F2E251282467D597D95 /* StringExtension.swift */,
+				2BC61BF84705E843B6E533A4DFE1B6F0 /* UIColorExtension.swift */,
+				29E2B63A5A647C4FCA91D9CFCC43BD58 /* UIColorInputError.swift */,
+				ED41CACBE900966EB1B9338C34293A02 /* Support Files */,
+			);
+			name = UIColor_Hex_Swift;
+			path = UIColor_Hex_Swift;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				02190B75123113D6C35101D2D1C6E1FC /* Pods */,
+				68BC0C2969AF8D5BEA49BCAE55DF320C /* Products */,
+				E32FA802DF3C5480DF725672516BCB9E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97044C2BA5A43A80339B4FEBF9D2781E /* Pods-Essentialism-HabitReminderNotification */ = {
+			isa = PBXGroup;
+			children = (
+				BC1B2FB2A37B11F5777F47F3D6C7393B /* Info.plist */,
+				6194116EFB2ABD552425E1DC4DAF9E6A /* Pods-Essentialism-HabitReminderNotification.modulemap */,
+				38F854A77D0906A999F7DEC8C87BCBF1 /* Pods-Essentialism-HabitReminderNotification-acknowledgements.markdown */,
+				055AECB056B2391013D9B0E008F517AB /* Pods-Essentialism-HabitReminderNotification-acknowledgements.plist */,
+				3595B8C010024666DE9ECE16230ABD87 /* Pods-Essentialism-HabitReminderNotification-dummy.m */,
+				ACE8522B9ACD27581620A96C27AAA4EF /* Pods-Essentialism-HabitReminderNotification-resources.sh */,
+				BA76DCBB8B8450C6090DE26F6CA711E8 /* Pods-Essentialism-HabitReminderNotification-umbrella.h */,
+				76845E63D7A4834C763C0F232C93EFE3 /* Pods-Essentialism-HabitReminderNotification.debug.xcconfig */,
+				3391846592AA0A55DF705407507F8C96 /* Pods-Essentialism-HabitReminderNotification.release.xcconfig */,
+			);
+			name = "Pods-Essentialism-HabitReminderNotification";
+			path = "Target Support Files/Pods-Essentialism-HabitReminderNotification";
+			sourceTree = "<group>";
+		};
+		CB63047F75885A703D39034AC81A84A9 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		E32FA802DF3C5480DF725672516BCB9E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BAFEF24C19BC7B59CE15F235F883687 /* Pods-Essentialism */,
+				63AEF5496F49091828FC9ED146649706 /* Pods-Essentialism-Essentialism-Dev */,
+				0CC93366E0B793FE31BED9B8620F09A9 /* Pods-Essentialism-Essentialism-Stg */,
+				97044C2BA5A43A80339B4FEBF9D2781E /* Pods-Essentialism-HabitReminderNotification */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E529A4F99CDFBE19CECBB0C32546EC1E /* JTAppleCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F696894AFBBAF27F3A6B348353C93FB1 /* CalendarEnums.swift */,
+				B3373100CE802AE74AEBE005C410EEB6 /* CalendarStructs.swift */,
+				01205BBDEA503F00270A85420C29FCAF /* GlobalFunctionsAndExtensions.swift */,
+				0FCF4AA874094EE1E8DC1FF0602A2843 /* InternalActionFunctions.swift */,
+				35A4600F182A42C4FC43A2D17748F845 /* InternalQueryFunctions.swift */,
+				73C809DB4D5347B4F43641C3D4E099D0 /* JTAppleCalendarDelegateProtocol.swift */,
+				F7CA913E0871A6F79F1E96BF0F434E3D /* JTAppleCalendarLayout.swift */,
+				D938FEA7862D8EE2F7859193EA55673C /* JTAppleCalendarLayoutProtocol.swift */,
+				B78EC70F960BBFE36F2D6931C499BF0B /* JTAppleCalendarVariables.swift */,
+				C34B0016B3A9BAB26E3A227318153F3E /* JTAppleCalendarView.swift */,
+				BDD3535BB2E1FFE16B9B67726A1F0AD6 /* JTAppleCell.swift */,
+				6F3494C5B8A1FB57A7F19EA42F7A4527 /* JTAppleCollectionReusableView.swift */,
+				7B7223C883D86933D3A473A2BF140F1D /* JTCalendarProtocols.swift */,
+				DAFF7CD0CC2871494142A9ED88092035 /* UICollectionViewDelegates.swift */,
+				320A6F7C635EB5C0FFC4CD717202DA41 /* UIScrollViewDelegates.swift */,
+				CAE7DB96F57BD1DCB000E0896A9D5E50 /* UserInteractionFunctions.swift */,
+				62D38D86B1915C5D5AA10E4D104E0FC4 /* Support Files */,
+			);
+			name = JTAppleCalendar;
+			path = JTAppleCalendar;
+			sourceTree = "<group>";
+		};
+		ED41CACBE900966EB1B9338C34293A02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDD67CDB8973FA6D7549BBBAF4A84DEA /* Info.plist */,
+				F83D455F43B0D732942E1C5C6DB8123C /* UIColor_Hex_Swift.modulemap */,
+				77A1F4C27C1D507E0E167131CAA7937F /* UIColor_Hex_Swift.xcconfig */,
+				253F2A7962B1A23CAA84D65364CCA48E /* UIColor_Hex_Swift-dummy.m */,
+				B7110BDCBF05EF2233CF080C42BC9789 /* UIColor_Hex_Swift-prefix.pch */,
+				6ED68773DF1991093A6A5F7E4350D185 /* UIColor_Hex_Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor_Hex_Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		396310F30906BDD37C5D025A79251E3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8C82118DF95DA82582ACCEA6EA3660 /* JTAppleCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C7CE12207BD993E3EDFDE1B444552C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0868DAC45B9BE2214CB5F57D0CF631AC /* Pods-Essentialism-Essentialism-Stg-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486126CB437B78F9834C2362442B5DA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF170918144167271555B263726F8C1 /* Pods-Essentialism-Essentialism-Dev-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C9E39219D9660FFB7D0641535A06C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE621D5AA4CCAB54B1D385BEBE9CCC2E /* Pods-Essentialism-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C078A6C6956E6E65696695DBF922F2B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084242684E10E72FD60CC9674501A521 /* Pods-Essentialism-HabitReminderNotification-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BF459175E5E39D6F3D496E1B8E6558 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969CE2BB2DD96803A14B093075375B2C /* HEXColor.h in Headers */,
+				7C29B686ABDB3A3B4CF245AA915F827F /* UIColor_Hex_Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		791E7B776DC18FAFD9755F8BBA33233B /* JTAppleCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F2152DD82D40CD6D91FAD1CFDD1D4E /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */;
+			buildPhases = (
+				396310F30906BDD37C5D025A79251E3C /* Headers */,
+				1EAB681C0A7F1A93441D57BFC66F8B81 /* Sources */,
+				0280EF87B2907100280E7942FE43161A /* Frameworks */,
+				035AF78EB87D614AB12BDFE858E8F1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTAppleCalendar;
+			productName = JTAppleCalendar;
+			productReference = 7DD6FEC4F4EE28FF3BCA77BD8749D24C /* JTAppleCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC9DA886A9B292405D1BB5AEFD038898 /* UIColor_Hex_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8BC2BE5D0370627C7D976749F8F8AA /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */;
+			buildPhases = (
+				F9BF459175E5E39D6F3D496E1B8E6558 /* Headers */,
+				F41CF7B1F7D3D9FDF026350443C0A381 /* Sources */,
+				318D234CB022F18738CFD6798E657D87 /* Frameworks */,
+				58EA20301095527EED7121445DBE9FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIColor_Hex_Swift;
+			productName = UIColor_Hex_Swift;
+			productReference = 34B65D53F202C425D87482239ECB0F6E /* UIColor_Hex_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E14D24A18349CD2A0D924C7B1D13694E /* Pods-Essentialism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067954718A39C2F078379C3CF4C5E1B8 /* Build configuration list for PBXNativeTarget "Pods-Essentialism" */;
+			buildPhases = (
+				A7C9E39219D9660FFB7D0641535A06C1 /* Headers */,
+				FCB96A74F94CA570B217B295CDDEFC33 /* Sources */,
+				B35AE1416E561F740F480B8501E6B545 /* Frameworks */,
+				63D48B971B8A7263C24671F0C0A4224C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49687D1CBC1269336A2AB5397FDC234E /* PBXTargetDependency */,
+				EE059499848AE9EC510C5A3D2C2E92BD /* PBXTargetDependency */,
+			);
+			name = "Pods-Essentialism";
+			productName = "Pods-Essentialism";
+			productReference = C3CB1603232A9CADE85A8E3E7A5BA48E /* Pods_Essentialism.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E54A43D5F2444B85B6896840D328CA69 /* Pods-Essentialism-HabitReminderNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29C81DCB3E5E07DDB9FC40F61CD5523 /* Build configuration list for PBXNativeTarget "Pods-Essentialism-HabitReminderNotification" */;
+			buildPhases = (
+				C078A6C6956E6E65696695DBF922F2B8 /* Headers */,
+				B2083AF2345A8D326E0E303489A61F52 /* Sources */,
+				27D61044912ED65BFC3E9D4347434DBE /* Frameworks */,
+				F3C1A10B738C3C23CE2C724CC003A957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95FFF75319F62E47568D52CF0229730 /* PBXTargetDependency */,
+				D5F97D387B9EE4BF2DB2DCEA66C94E88 /* PBXTargetDependency */,
+			);
+			name = "Pods-Essentialism-HabitReminderNotification";
+			productName = "Pods-Essentialism-HabitReminderNotification";
+			productReference = 2FEA95B28970A1944254F7ECD5695704 /* Pods_Essentialism_HabitReminderNotification.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC5E3FC8899ABF4C7C1BE11483BBA210 /* Pods-Essentialism-Essentialism-Stg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0481669DA571540436758700D651F5C8 /* Build configuration list for PBXNativeTarget "Pods-Essentialism-Essentialism-Stg" */;
+			buildPhases = (
+				43C7CE12207BD993E3EDFDE1B444552C /* Headers */,
+				349D63A70127ADEAA852E6EEA2CAECD5 /* Sources */,
+				5DB3A86B2DC81B7BCB389B00818FB467 /* Frameworks */,
+				3357A63B2D7CEB7747CCA58552998EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6849E635BC84567C2D6D95B338ED079D /* PBXTargetDependency */,
+				552B49E105AFEBA0C8CC4FC767BCC4D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Essentialism-Essentialism-Stg";
+			productName = "Pods-Essentialism-Essentialism-Stg";
+			productReference = D00AC62991E014C7258A4B0EBD0CA275 /* Pods_Essentialism_Essentialism_Stg.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8A09341C7BA05146BA87BD7D0B9C4AC /* Pods-Essentialism-Essentialism-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8326A6ED424EEF4D1B71E40E48C71E2 /* Build configuration list for PBXNativeTarget "Pods-Essentialism-Essentialism-Dev" */;
+			buildPhases = (
+				486126CB437B78F9834C2362442B5DA8 /* Headers */,
+				9902400696F9AE629346867634A7D69F /* Sources */,
+				AADB7E565FF3F3EE4AF9FA009F488E73 /* Frameworks */,
+				CCB5F3C45B64AF53284A96D77B448F20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A4B6025E90FD8154E3E00AF2FA9016E /* PBXTargetDependency */,
+				507ABA22A46E0272B1787B472552C894 /* PBXTargetDependency */,
+			);
+			name = "Pods-Essentialism-Essentialism-Dev";
+			productName = "Pods-Essentialism-Essentialism-Dev";
+			productReference = 2DC76B619FCF95F1B75417DB7712D6E3 /* Pods_Essentialism_Essentialism_Dev.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 68BC0C2969AF8D5BEA49BCAE55DF320C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				791E7B776DC18FAFD9755F8BBA33233B /* JTAppleCalendar */,
+				E14D24A18349CD2A0D924C7B1D13694E /* Pods-Essentialism */,
+				F8A09341C7BA05146BA87BD7D0B9C4AC /* Pods-Essentialism-Essentialism-Dev */,
+				EC5E3FC8899ABF4C7C1BE11483BBA210 /* Pods-Essentialism-Essentialism-Stg */,
+				E54A43D5F2444B85B6896840D328CA69 /* Pods-Essentialism-HabitReminderNotification */,
+				AC9DA886A9B292405D1BB5AEFD038898 /* UIColor_Hex_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035AF78EB87D614AB12BDFE858E8F1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3357A63B2D7CEB7747CCA58552998EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58EA20301095527EED7121445DBE9FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D48B971B8A7263C24671F0C0A4224C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB5F3C45B64AF53284A96D77B448F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C1A10B738C3C23CE2C724CC003A957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EAB681C0A7F1A93441D57BFC66F8B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4611B82085E887F9215E0115AF30F99D /* CalendarEnums.swift in Sources */,
+				42023B129903ACB04DD76CE54BEDD02C /* CalendarStructs.swift in Sources */,
+				819873CF8DBFAD45590AAC8945DC1B5C /* GlobalFunctionsAndExtensions.swift in Sources */,
+				E7CC890914AE49452861315913ED237E /* InternalActionFunctions.swift in Sources */,
+				8E2AF2573C443F0DD5BB8111EC5B5375 /* InternalQueryFunctions.swift in Sources */,
+				E7F6F68D34A04BC292597F6E4B55AB28 /* JTAppleCalendar-dummy.m in Sources */,
+				31A0A90FE6645E6548B15E771DFBFD50 /* JTAppleCalendarDelegateProtocol.swift in Sources */,
+				CFDE80C521CD8313AA440E0FC7B82FBB /* JTAppleCalendarLayout.swift in Sources */,
+				B4739E1452E5D10D47F64666AE6C5591 /* JTAppleCalendarLayoutProtocol.swift in Sources */,
+				0F08C0922AFF8660DDC6B33F5973AD53 /* JTAppleCalendarVariables.swift in Sources */,
+				C2DE02D3C4CC5353EB5A8401F05A5A8D /* JTAppleCalendarView.swift in Sources */,
+				8394230B7C1D50A0FA996E134955E23F /* JTAppleCell.swift in Sources */,
+				12A2AD300F65E773885B5B69FB1D9AB8 /* JTAppleCollectionReusableView.swift in Sources */,
+				5F95E758840175C2194AF43CE326AD58 /* JTCalendarProtocols.swift in Sources */,
+				D42A00134A505A5ED05C10FC70F1926A /* UICollectionViewDelegates.swift in Sources */,
+				8E5E3D6FCB6C2C52ED20EF236FC3155B /* UIScrollViewDelegates.swift in Sources */,
+				D1B55151AE05392B4A05522DED127897 /* UserInteractionFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349D63A70127ADEAA852E6EEA2CAECD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531EE7BBEBF8DBB9F5BF705B0B24EE32 /* Pods-Essentialism-Essentialism-Stg-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9902400696F9AE629346867634A7D69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2ED3490A814B76080B005DAA79DCB1 /* Pods-Essentialism-Essentialism-Dev-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2083AF2345A8D326E0E303489A61F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6018A5DDB8E7AD3BC53D141F20E9344C /* Pods-Essentialism-HabitReminderNotification-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41CF7B1F7D3D9FDF026350443C0A381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F02F4803D4BF7EC2A0A961761D338D /* StringExtension.swift in Sources */,
+				C3612A127636121CD966943B1A03937B /* UIColor_Hex_Swift-dummy.m in Sources */,
+				A825C07868FC196698C2F6D2F2F61F86 /* UIColorExtension.swift in Sources */,
+				2D4C2CE404E6DD874335A24CCA6DEF0A /* UIColorInputError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB96A74F94CA570B217B295CDDEFC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712A447CB70F2D6C06C988828C34D751 /* Pods-Essentialism-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49687D1CBC1269336A2AB5397FDC234E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTAppleCalendar;
+			target = 791E7B776DC18FAFD9755F8BBA33233B /* JTAppleCalendar */;
+			targetProxy = DEA6087336A7A954584DA6D388A42EAD /* PBXContainerItemProxy */;
+		};
+		507ABA22A46E0272B1787B472552C894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = AC9DA886A9B292405D1BB5AEFD038898 /* UIColor_Hex_Swift */;
+			targetProxy = 0AA5E6B7C3A091C3491B1BDDE0501E48 /* PBXContainerItemProxy */;
+		};
+		552B49E105AFEBA0C8CC4FC767BCC4D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = AC9DA886A9B292405D1BB5AEFD038898 /* UIColor_Hex_Swift */;
+			targetProxy = 8F1BA09A592731F3EE74BB6F20613B61 /* PBXContainerItemProxy */;
+		};
+		6849E635BC84567C2D6D95B338ED079D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTAppleCalendar;
+			target = 791E7B776DC18FAFD9755F8BBA33233B /* JTAppleCalendar */;
+			targetProxy = 21E12FF4333EEB5C7C377ECA3F76F074 /* PBXContainerItemProxy */;
+		};
+		6A4B6025E90FD8154E3E00AF2FA9016E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTAppleCalendar;
+			target = 791E7B776DC18FAFD9755F8BBA33233B /* JTAppleCalendar */;
+			targetProxy = D2FB4046CA8D471952B42810F7719144 /* PBXContainerItemProxy */;
+		};
+		A95FFF75319F62E47568D52CF0229730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTAppleCalendar;
+			target = 791E7B776DC18FAFD9755F8BBA33233B /* JTAppleCalendar */;
+			targetProxy = AB78E19C800BFD519ED3861807F6A9C2 /* PBXContainerItemProxy */;
+		};
+		D5F97D387B9EE4BF2DB2DCEA66C94E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = AC9DA886A9B292405D1BB5AEFD038898 /* UIColor_Hex_Swift */;
+			targetProxy = 072DC205625FD20FD26A7A3F277B0DE6 /* PBXContainerItemProxy */;
+		};
+		EE059499848AE9EC510C5A3D2C2E92BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = AC9DA886A9B292405D1BB5AEFD038898 /* UIColor_Hex_Swift */;
+			targetProxy = 56249BE2F68F8352D54C31BFD3AA78A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0871956FC847271E6C1BDAACD7DC5590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A1F4C27C1D507E0E167131CAA7937F /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		295B7DE54739846FCC69035C2BD15B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019876BA09D177D736AFCDC61EBD4F91 /* JTAppleCalendar.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
+				PRODUCT_MODULE_NAME = JTAppleCalendar;
+				PRODUCT_NAME = JTAppleCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3643C11088E8C0B6E67CEB7FABF611E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76845E63D7A4834C763C0F232C93EFE3 /* Pods-Essentialism-HabitReminderNotification.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Essentialism-HabitReminderNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Essentialism-HabitReminderNotification/Pods-Essentialism-HabitReminderNotification.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56682CD5D0AA8FC02EC34B958EB3B12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB27CE462B5DE60EE9518D8661875DA /* Pods-Essentialism-Essentialism-Stg.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Essentialism-Essentialism-Stg/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Essentialism-Essentialism-Stg/Pods-Essentialism-Essentialism-Stg.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F37DE11AECB110B901A69F788ED2282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A1F4C27C1D507E0E167131CAA7937F /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7678A3EB81DEFA70E4E6AF540AD4A5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA33CA44894C1A1CC2B5D4397A19736E /* Pods-Essentialism-Essentialism-Dev.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Essentialism-Essentialism-Dev/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Essentialism-Essentialism-Dev/Pods-Essentialism-Essentialism-Dev.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8086D0CA2D01DE2420646E045464DAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019876BA09D177D736AFCDC61EBD4F91 /* JTAppleCalendar.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JTAppleCalendar/JTAppleCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTAppleCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JTAppleCalendar/JTAppleCalendar.modulemap";
+				PRODUCT_MODULE_NAME = JTAppleCalendar;
+				PRODUCT_NAME = JTAppleCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		841042F5FDD13F9273E4157F1523557B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CE3E42169DB0974D34AB266BD65A42 /* Pods-Essentialism.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Essentialism/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Essentialism/Pods-Essentialism.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B6DDA467515C71BEF035CF1AB9ACDC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB4EE82EDF76B0CBBE2843365DBBF4A /* Pods-Essentialism.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Essentialism/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Essentialism/Pods-Essentialism.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5F759C82752B2EB010DB3CD3D69707C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D6D2D6E613D23CFF670DC6F5C8C0CE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3391846592AA0A55DF705407507F8C96 /* Pods-Essentialism-HabitReminderNotification.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Essentialism-HabitReminderNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Essentialism-HabitReminderNotification/Pods-Essentialism-HabitReminderNotification.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7C36EDE3E9E3D811B57CA0343ECE023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E88A10618F65634D0ED3B4E630C3A2 /* Pods-Essentialism-Essentialism-Dev.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Essentialism-Essentialism-Dev/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Essentialism-Essentialism-Dev/Pods-Essentialism-Essentialism-Dev.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF8687F33D711C47655D2A1217645ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43403F7357620A9E122D7E598BC2865 /* Pods-Essentialism-Essentialism-Stg.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Essentialism-Essentialism-Stg/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Essentialism-Essentialism-Stg/Pods-Essentialism-Essentialism-Stg.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0481669DA571540436758700D651F5C8 /* Build configuration list for PBXNativeTarget "Pods-Essentialism-Essentialism-Stg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56682CD5D0AA8FC02EC34B958EB3B12B /* Debug */,
+				FF8687F33D711C47655D2A1217645ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067954718A39C2F078379C3CF4C5E1B8 /* Build configuration list for PBXNativeTarget "Pods-Essentialism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841042F5FDD13F9273E4157F1523557B /* Debug */,
+				B6DDA467515C71BEF035CF1AB9ACDC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8BC2BE5D0370627C7D976749F8F8AA /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0871956FC847271E6C1BDAACD7DC5590 /* Debug */,
+				6F37DE11AECB110B901A69F788ED2282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */,
+				D5F759C82752B2EB010DB3CD3D69707C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B29C81DCB3E5E07DDB9FC40F61CD5523 /* Build configuration list for PBXNativeTarget "Pods-Essentialism-HabitReminderNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3643C11088E8C0B6E67CEB7FABF611E8 /* Debug */,
+				D6D2D6E613D23CFF670DC6F5C8C0CE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F2152DD82D40CD6D91FAD1CFDD1D4E /* Build configuration list for PBXNativeTarget "JTAppleCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8086D0CA2D01DE2420646E045464DAB5 /* Debug */,
+				295B7DE54739846FCC69035C2BD15B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8326A6ED424EEF4D1B71E40E48C71E2 /* Build configuration list for PBXNativeTarget "Pods-Essentialism-Essentialism-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C36EDE3E9E3D811B57CA0343ECE023 /* Debug */,
+				7678A3EB81DEFA70E4E6AF540AD4A5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

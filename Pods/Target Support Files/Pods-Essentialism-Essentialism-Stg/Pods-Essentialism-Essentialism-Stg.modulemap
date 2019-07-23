@@ -1,0 +1,6 @@
+framework module Pods_Essentialism_Essentialism_Stg {
+  umbrella header "Pods-Essentialism-Essentialism-Stg-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Essentialism_HabitReminderNotification {
+  umbrella header "Pods-Essentialism-HabitReminderNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}
